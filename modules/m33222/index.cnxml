@@ -1,0 +1,22 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Descartes en moodle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33222</md:content-id>
+  <md:title>Descartes en moodle</md:title>
+  <md:abstract>Breve manual para implementar un ejercicio realizado con Descartes en moodle o en una página web.</md:abstract>
+  <md:uuid>6b254c79-f941-431a-8176-3a95986c1c4e</md:uuid>
+</metadata>
+<content>
+    <section id="id1164037353840">
+      <title>¿Cómo colocar un ejercicio hecho con DESCARTES en nuestra página web?</title>
+      <para id="id1164037319563">Tenemos que colocar el módulo <emphasis effect="italics">Descartes.jar”</emphasis> en una carpeta accesible de nuestra página web o de nuestro sitio moodle. Por ejemplo puede ser la carpeta /<emphasis effect="italics">java/</emphasis></para>
+      <para id="id8648472">Todos los ejercicios creados con Descartes hay que enlazarlos con esa carpeta. Para enlazar los ejercicios tenemos que editer el código htm del archivo que genera el ejercicio y donde corresponda escribir la ruta del módulo Descartes.jar .</para>
+      <para id="id1164041116113">Buscaremos la siguiente línea de comandos para escribirla según corresponda:</para>
+      <para id="id1164037346048">codebase="http://www.MiSitio.com/java/" ; la dirección relativa podría ser “/java/”.</para>
+      <para id="id1164037595059">De manera más extensa éstas serían las líneas que debemos escribir en el punto en que queremos que aparezca el aplet de Descartes:</para>
+      <para id="id1164037515766">---------------------------------------------------------------------------------</para>
+      <para id="id1164037353754">&lt;applet code="Descartes.class" codebase= http://www.MiSitio.com/java/ archive="Descartes.jar"</para>
+      <para id="id1164037388004">---------------------------------------------------------------------------------</para>
+    </section>
+  </content>
+</document>

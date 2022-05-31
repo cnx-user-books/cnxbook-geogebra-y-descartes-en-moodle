@@ -1,0 +1,24 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Geogebra en moodle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33223</md:content-id>
+  <md:title>Geogebra en moodle</md:title>
+  <md:abstract>Breve manual para poder implementar ejercicios hechos con Geogebra en Moodle.</md:abstract>
+  <md:uuid>1b050e14-3187-4899-a80e-be9d4d02071b</md:uuid>
+</metadata>
+<content>
+    <section id="id1170286048737">
+      <title>Cómo utilizar Geogebra en Moodle</title>
+      <para id="id1170288753388">Para utilizar Geogebra en Moodle hay que hacer lo siguiente:</para>
+      <list id="id1170291649721" list-type="bulleted">
+        <item>Activamos el filtro correpondiente a Geogebra en Moodle.</item>
+      </list>
+      <list id="id1170288856700" list-type="bulleted">
+        <item>Cuando crreemos un rescurso para mostrar un archivo de Geogebra procederemos de la siguiente manera: el recurso que crearemos será una página web. Al escribir el contenido de la página web en el sitio en que queramos mostrar el ejercicio de Geogebra (formato *.ogg) crearemos un link en el texto con dicho archivo guardado en una carpeta de nuestro servidor moodle:</item>
+      </list>
+      <para id="id1170287570089">Nos puede quedar de la siguiente manera: </para>
+      <para id="id1170292437242">Aquí va el <emphasis effect="underline">ENLACE</emphasis></para>
+      <para id="id1170291967497">De esta manera tan simple conseguimos que al cargarse la página web donde he escrito ENLACE, y de manera automática (no es necesario hacer clic), se cargue a su vez el archivo de Geogebra al que hemos hecho el enlace. </para>
+    </section>
+  </content>
+</document>
